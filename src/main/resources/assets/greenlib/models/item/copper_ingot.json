@@ -1,6 +1,6 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "greencore:items/copper_ingot"
+		"layer0": "greenlib:items/copper_ingot"
 	}
 }

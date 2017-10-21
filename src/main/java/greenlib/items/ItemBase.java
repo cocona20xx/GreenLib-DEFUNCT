@@ -1,4 +1,4 @@
-package greencore.items;
+package greenlib.items;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
@@ -13,7 +13,7 @@ public class ItemBase extends Item {
 	}
 	
 	public void registerItemModel(){
-		greencore.main.GreenCore.proxy.registerItemRenderer(this, 0, name);
+		greenlib.main.GreenCore.proxy.registerItemRenderer(this, 0, name);
 	}
 	@Override
 	public ItemBase setCreativeTab(CreativeTabs tab) {

@@ -1,0 +1,16 @@
+[
+{
+  "modid": "GreenLib",
+  "name": "Green Lib",
+  "description": "Basic Lib for Green/Pexium's mods. Currently in PHASE 0",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["GreenPex"],
+  "credits": "MMD Discord for all the help",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

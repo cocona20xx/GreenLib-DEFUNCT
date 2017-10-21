@@ -1,4 +1,4 @@
-package greencore.proxies;
+package greenlib.proxies;
 
 import net.minecraft.item.Item;
 
