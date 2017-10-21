@@ -12,3 +12,6 @@
 .classpath
 .project
 .settings/org.eclipse.jdt.core.prefs
+/.gradle/
+/bin/
+.settings/org.eclipse.buildship.core.prefs

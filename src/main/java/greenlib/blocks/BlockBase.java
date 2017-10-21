@@ -9,11 +9,15 @@ import net.minecraft.item.ItemBlock;
 public class BlockBase extends Block{
 
 	protected String name;
-	public BlockBase(Material material, String name) {
+	public BlockBase(Material material, String name, float res, float hrd, String tool, int hLvl) {
 		super(material);
 		this.name = name;
 		setUnlocalizedName(name);
 		setRegistryName(name);
+		setResistance(res);
+		setHardness(hrd);
+		setHarvestLevel(tool, hLvl);
+		
 	}
 	public void registerItemModel(Item itemBlock) {
 		greenlib.main.GreenCore.proxy.registerItemRenderer(itemBlock, 0, name);
