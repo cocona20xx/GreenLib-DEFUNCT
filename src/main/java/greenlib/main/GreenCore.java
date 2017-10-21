@@ -21,7 +21,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 public class GreenCore {
 	public static final String ID = "greencore";
 	public static final String NAME = "Green Core";
-	public static final String VERSION = "0.01a";
+	public static final String VERSION = "0.1_p0";
 	
 	
 
