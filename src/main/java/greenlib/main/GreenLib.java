@@ -19,8 +19,8 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 @Mod(modid = GreenLib.ID, name = GreenLib.NAME, version = GreenLib.VERSION)
 public class GreenLib {
-	public static final String ID = "greencore";
-	public static final String NAME = "Green Core";
+	public static final String ID = "greenlib";
+	public static final String NAME = "Green Lib";
 	public static final String VERSION = "0.1_p0";
 	
 	
