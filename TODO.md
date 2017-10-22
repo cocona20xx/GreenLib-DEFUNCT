@@ -5,4 +5,3 @@
 4. Create Armor class
 5. Create ForgeEnergy hook classes
 6. Migrate all blocks and items to a mod that depends on this one
-

@@ -8,7 +8,7 @@ import net.minecraftforge.registries.IForgeRegistry;
 
 public class ModBlocks {
 
-	public static final BlockBase COPPER_ORE = new BlockBase(BlockData.ORETEST.mat, BlockData.ORETEST.blockName, BlockData.ORETEST.res, BlockData.ORETEST.hrd, BlockData.ORETEST.tool, BlockData.ORETEST.harvest).setCreativeTab(BlockData.ORETEST.cTab);
+	public static final BlockOreDict COPPER_ORE = new BlockOreDict(BlockData.ORETEST.mat, BlockData.ORETEST.blockName, BlockData.ORETEST.res, BlockData.ORETEST.hrd, BlockData.ORETEST.tool, BlockData.ORETEST.harvest, BlockData.ORETEST.oredictName).setCreativeTab(BlockData.ORETEST.cTab);
 	
 		public static void register(IForgeRegistry<Block> registery) {
 			registery.registerAll(COPPER_ORE);
