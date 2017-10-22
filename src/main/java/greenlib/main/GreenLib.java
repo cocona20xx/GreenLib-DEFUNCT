@@ -17,8 +17,8 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 
-@Mod(modid = GreenCore.ID, name = GreenCore.NAME, version = GreenCore.VERSION)
-public class GreenCore {
+@Mod(modid = GreenLib.ID, name = GreenLib.NAME, version = GreenLib.VERSION)
+public class GreenLib {
 	public static final String ID = "greencore";
 	public static final String NAME = "Green Core";
 	public static final String VERSION = "0.1_p0";
@@ -27,7 +27,7 @@ public class GreenCore {
 
 	
 	@Mod.Instance(ID)
-	public static GreenCore instance;
+	public static GreenLib instance;
 	
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
@@ -43,7 +43,7 @@ public class GreenCore {
 	public void postInit(FMLPostInitializationEvent event) {
 
 	}
-	@SidedProxy(serverSide = "greencore.proxies.CommonProxy", clientSide = "greencore.proxies.ClientProxy" )
+	@SidedProxy(serverSide = "greenlib.proxies.CommonProxy", clientSide = "greenlib.proxies.ClientProxy" )
 	public static CommonProxy proxy;
 	
 	@Mod.EventBusSubscriber

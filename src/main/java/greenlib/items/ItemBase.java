@@ -13,7 +13,7 @@ public class ItemBase extends Item {
 	}
 	
 	public void registerItemModel(){
-		greenlib.main.GreenCore.proxy.registerItemRenderer(this, 0, name);
+		greenlib.main.GreenLib.proxy.registerItemRenderer(this, 0, name);
 	}
 	@Override
 	public ItemBase setCreativeTab(CreativeTabs tab) {

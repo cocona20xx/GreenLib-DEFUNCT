@@ -8,17 +8,17 @@ import net.minecraftforge.registries.IForgeRegistry;
 
 public class ModBlocks {
 
-	public static final BlockBase TEST = new BlockBase(BlockData.STONETEST.mat, BlockData.STONETEST.name(), BlockData.STONETEST.res, BlockData.STONETEST.hrd, BlockData.STONETEST.tool, BlockData.STONETEST.harvest).setCreativeTab(BlockData.STONETEST.cTab);
+	public static final BlockBase COPPER_ORE = new BlockBase(BlockData.ORETEST.mat, BlockData.ORETEST.blockName, BlockData.ORETEST.res, BlockData.ORETEST.hrd, BlockData.ORETEST.tool, BlockData.ORETEST.harvest).setCreativeTab(BlockData.ORETEST.cTab);
 	
 		public static void register(IForgeRegistry<Block> registery) {
-			registery.registerAll(TEST);
+			registery.registerAll(COPPER_ORE);
 		}
 
 		public static void registerItemBlocks(IForgeRegistry<Item> registry) {
-			registry.registerAll(TEST.createItemBlock());
+			registry.registerAll(COPPER_ORE.createItemBlock());
 		}
 
 		public static void registerModels() {
-			TEST.registerItemModel(Item.getItemFromBlock(TEST));
+			COPPER_ORE.registerItemModel(Item.getItemFromBlock(COPPER_ORE));
 		}
 }
