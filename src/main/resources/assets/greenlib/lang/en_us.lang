@@ -1,4 +1,4 @@
 #Items
 item.copper_ingot.name=Copper Ingot
 #Blocks
-item.copper_ore.name=Copper Ore
+tile.copper_ore.name=Copper Ore

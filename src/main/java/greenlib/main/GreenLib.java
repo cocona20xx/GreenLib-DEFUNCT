@@ -5,6 +5,7 @@ package greenlib.main;
 import greenlib.blocks.ModBlocks;
 import greenlib.items.ModItems;
 import greenlib.proxies.CommonProxy;
+import greenlib.recipes.ModRecipes;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
@@ -21,7 +22,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 public class GreenLib {
 	public static final String ID = "greenlib";
 	public static final String NAME = "Green Lib";
-	public static final String VERSION = "0.1_p0";
+	public static final String VERSION = "0.1a";
 	
 	
 
@@ -36,7 +37,7 @@ public class GreenLib {
 
 	@Mod.EventHandler
 	public void init(FMLInitializationEvent event) {
-		
+		ModRecipes.init();
 	}
 
 	@Mod.EventHandler

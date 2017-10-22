@@ -7,14 +7,14 @@ import net.minecraft.item.Item;
 import net.minecraftforge.registries.IForgeRegistry;
 
 public class ModItems {
-	public static final ItemBase copperIngot = new ItemBase("copper_ingot").setCreativeTab(CreativeTabs.MATERIALS);
+	public static final ItemBase COPPER_INGOT = new ItemBase("copper_ingot").setCreativeTab(CreativeTabs.MATERIALS);
 	
 	public static void register(IForgeRegistry<Item> registry){
-		registry.registerAll(copperIngot);
+		registry.registerAll(COPPER_INGOT);
 	}
 	
 	public static void registerModels() {
-			copperIngot.registerItemModel();
+			COPPER_INGOT.registerItemModel();
 	}
 		
 }
